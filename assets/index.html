@@ -10,15 +10,20 @@
       sizes="76x76"
       href="./assets/img/apple-icon.png"
     />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <!-- Tailwind Library -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
-    <title>Landing | Tailwind Starter Kit by Creative Tim</title>
+    <title>Animated Template</title>
   </head>
   <body class="text-gray-800 antialiased">
     <!-- Navigation -->
@@ -135,8 +140,11 @@
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
-                <h1 class="text-white font-semibold text-5xl">
-                  Your story starts with us.
+                <h1
+                  class="text-white font-semibold text-5xl"
+                  data-aos="zoom-in"
+                >
+                  Welcome your epiphany.
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
                   This is a simple example of a Landing Page you can build using
@@ -173,6 +181,7 @@
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                data-aos="flip-left"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
@@ -188,7 +197,7 @@
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-4/12 px-4 text-center">
+            <div class="w-full md:w-4/12 px-4 text-center" data-aos="flip-left">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
@@ -206,7 +215,10 @@
                 </div>
               </div>
             </div>
-            <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div
+              class="pt-6 w-full md:w-4/12 px-4 text-center"
+              data-aos="flip-left"
+            >
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
@@ -226,7 +238,10 @@
             </div>
           </div>
           <div class="flex flex-wrap items-center mt-32">
-            <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+            <div
+              class="w-full md:w-5/12 px-4 mr-auto ml-auto"
+              data-aos="zoom-in"
+            >
               <div
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
               >
@@ -258,6 +273,7 @@
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+                data-aos="flip-left"
               >
                 <img
                   alt="..."
@@ -318,10 +334,12 @@
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
                 src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+                data-aos="flip-right"
+                data-aos-delay="1200"
               />
             </div>
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-              <div class="md:pr-12">
+              <div class="md:pr-12" data-aos="fade-down-left">
                 <div
                   class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
                 >
@@ -382,7 +400,7 @@
         </div>
       </section>
       <section class="pt-20 pb-48">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-4" data-aos="fade-up">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="text-4xl font-semibold">Here are our heroes</h2>
@@ -401,6 +419,7 @@
                   src="https://randomuser.me/api/portraits/men/66.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
+                  data-aos="fade-up"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Ryan Tompson</h5>
@@ -437,6 +456,7 @@
                   src="https://randomuser.me/api/portraits/women/49.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
+                  data-aos="fade-up"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Romina Hadid</h5>
@@ -467,6 +487,7 @@
                   src="https://randomuser.me/api/portraits/women/8.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
+                  data-aos="fade-up"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Alexa Smith</h5>
@@ -503,6 +524,7 @@
                   src="https://randomuser.me/api/portraits/women/69.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
+                  data-aos="fade-up"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Jenna Kardi</h5>
@@ -572,8 +594,14 @@
               </p>
             </div>
           </div>
+          <!-- Flex Row Container -->
           <div class="flex flex-wrap mt-12 justify-center">
-            <div class="w-full lg:w-3/12 px-4 text-center">
+            <!-- Item -->
+            <div
+              class="w-full lg:w-3/12 px-4 text-center"
+              data-aos="fade-in"
+              data-aos-delay="600"
+            >
               <div
                 class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
@@ -587,7 +615,12 @@
                 the bulk of the card's content.
               </p>
             </div>
-            <div class="w-full lg:w-3/12 px-4 text-center">
+            <!-- Item -->
+            <div
+              class="w-full lg:w-3/12 px-4 text-center"
+              data-aos="fade-in"
+              data-aos-delay="500"
+            >
               <div
                 class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
@@ -601,7 +634,12 @@
                 the bulk of the card's content.
               </p>
             </div>
-            <div class="w-full lg:w-3/12 px-4 text-center">
+            <!-- Item -->
+            <div
+              class="w-full lg:w-3/12 px-4 text-center"
+              data-aos="fade-in"
+              data-aos-delay="400"
+            >
               <div
                 class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
@@ -832,6 +870,20 @@
       </div>
     </footer>
   </body>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      delay: 200, // values from 0 to 3000, with step 50ms
+      duration: 1500, // values from 0 to 3000, with step 50ms
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+    });
+  </script>
+
+  <!-- Navigation Script -->
   <script>
     function toggleNavbar(collapseID) {
       document.getElementById(collapseID).classList.toggle("hidden");
